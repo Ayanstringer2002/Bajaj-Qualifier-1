@@ -1,0 +1,8 @@
+POST https :// bfhldevapigw . healthrx . co . in / hiring / testWebhook / JAVA
+Headers :
+Authorization : < accessToken >
+Content - Type : application / json
+Body :
+{
+" finalQuery ": " SELECT * FROM patients WHERE age > 30 "
+}
